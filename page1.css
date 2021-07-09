@@ -1,0 +1,70 @@
+h1{
+  color :white;
+}
+body{
+  margin:0;
+}
+.header {
+  
+  padding:2%;
+  background-color:olivedrab;
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.header a{
+  text-decoration: none;
+  color: white;
+
+}
+.nav a{
+  color: white;
+  text-decoration: none;
+  display: block;
+  transition: all .25s ease-out;
+}
+.nav a:hover{
+  color:orangered;
+  font-size: 105%;
+  width: 105%;
+}
+.nav{
+  list-style: none;
+  margin : 0;
+  padding: 0;
+  display: flex;
+}
+.nav li{
+  margin-left:20px;
+}
+
+.intro{
+  padding: 10%;
+  background-color: rgb(185, 196, 163);
+  align-items:center;
+  color: black;
+
+
+}
+img {
+  width: 40%;
+}
+.personal{
+  padding: 5%;
+}
+.personal a{
+  color: rgb(73, 99, 20);
+  text-decoration: none;
+  transition: all .25s ease-out;
+}
+.personal a:hover{
+  color:orangered;
+  font-size: 105%;
+}
+.abtMe {
+  padding: 5%;
+  background-color: rgb(185, 196, 163);
+}
