@@ -24,7 +24,7 @@ body{
   
   display: flex;
   background-color: orangered;
-  justify-content: space-evenly;
+  justify-content: center;
   align-content: center;
 }
 .nav a{
